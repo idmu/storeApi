@@ -22,3 +22,4 @@ Route::get('api/:version/theme/:id','api/:version.Theme/getComplexOne');
 //解决办法在config中设置路由的完整匹配
 
 Route::get('api/:version/product/recent','api/:version.Product/getRecent');
+Route::get('api/:version/category/all','api/:version.Category/getAllCategories');
