@@ -3,26 +3,18 @@
 
 [![License](https://poser.pugx.org/topthink/think/license)](https://packagist.org/packages/topthink/think)
 ####  项目特色
-++ 验证器的封装
-++ 异常类的封装
-++ TOKEN令牌的获取封装
-
-主要基于ThinkPHP5框架基础上,对已有的模式做了更深的强化，优化核心，减少依赖，基于全新的架构思想和命名空间实现，其主要特性包括：
-
- + 核心功能组件
- + 强化路由功能
- + 更灵活的控制器
- + 重构的模型和数据库类
- + 配置文件可分离
- + 重写的自动验证和异常类
- + 简化扩展机制
- + 封装了个强大的Base类,降低了项目的耦合度
- 
- +
- +
-
-> ThinkPHP5。
+主要基于ThinkPHP5框架基础上,对已有的模式做了更深的强化，优化核心，减少依赖，基于全新的架构思想和命名空间实现，> ThinkPHP5。
 详细开发文档参考 [ThinkPHP5完全开发手册](http://www.kancloud.cn/manual/thinkphp5)
++
+验证器的封装
++
+异常类的封装
++
+TOKEN令牌的获取封装
+
+
+
+
 #### 运行环境
 本地环境开发,采用phpStrom开发软件,对应的测试小程序见本库[shops];
 ## 目录结构
