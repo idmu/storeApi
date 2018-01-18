@@ -1,10 +1,11 @@
-一款基于php开发的小程序接口
+一款基于php语言开发的服务端API
 =====================
 
 [![License](https://poser.pugx.org/topthink/think/license)](https://packagist.org/packages/topthink/think)
 ####  项目特色
 主要基于ThinkPHP5框架基础上,对已有的模式做了更深的强化，优化核心，减少依赖，基于全新的架构思想和命名空间实现，> ThinkPHP5。
 详细开发文档参考 [ThinkPHP5完全开发手册](http://www.kancloud.cn/manual/thinkphp5)
+项目尤其注重AOP思想、面向对象的高度抽象、RESTFUL的灵活运用,对相应的层可直接复用。
 ####  验证器的封装
 
 ####  异常类的封装
