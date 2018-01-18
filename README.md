@@ -1,9 +1,6 @@
 一款基于php开发的小程序接口
 =====================
 
-[![Total Downloads](--)](00)
-[![Latest Stable Version](--)](00)
-[![Latest Unstable Version](--)](00)
 [![License](https://poser.pugx.org/topthink/think/license)](https://packagist.org/packages/topthink/think)
 
 主要基于ThinkPHP5框架基础上,对已有的模式做了更深的强化，优化核心，减少依赖，基于全新的架构思想和命名空间实现，其主要特性包括：
@@ -17,29 +14,26 @@
  + 重写的自动验证和异常类
  + 简化扩展机制
  + 封装了个强大的Base类,降低了项目的耦合度
- + 改进的Log类
+ 
  +
  +
 
 > ThinkPHP5。
 详细开发文档参考 [ThinkPHP5完全开发手册](http://www.kancloud.cn/manual/thinkphp5)
-本地环境开发
+#### 运行环境
+本地环境开发,采用phpStrom开发软件,对应的测试小程序见本库[shops];
 ## 目录结构
-##### 路由配置
+##### 路由配置范例
 Route::get('api/:version/banner/:id','api/:version.Banner/getBanner');
 Route::get('api/:version/theme','api/:version.Theme/getSimpleList');
 Route::get('api/:version/theme/:id','api/:version.Theme/getComplexOne');
 
 Route::get('api/:version/product/recent','api/:version.Product/getRecent');
 
-
-
 ## 命名规范
 
 `ThinkPHP5`遵循PSR-2命名规范和PSR-4自动加载规范，并且注意如下规范：
-
 ###
-
 *   驼峰和小写
 *   类库、函数文件统一以`.php`为后缀；
 *   类的文件名均以命名空间定义，并且命名空间的路径和类库文件所在路径一致；
