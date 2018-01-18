@@ -21,7 +21,18 @@ Route::get('api/:version/theme/:id','api/:version.Theme/getComplexOne');
 //漏油从上往下匹配,路径相同就会匹配成功,匹配成功后不会继续往后匹配
 //解决办法在config中设置路由的完整匹配
 
-Route::get('api/:version/product/recent','api/:version.Product/getRecent');
-Route::get('api/:version/product/by_category','api/:version.Product/getAllCategory');
+//Route::get('api/:version/product/recent','api/:version.Product/getRecent');
+//Route::get('api/:version/product/by_category','api/:version.Product/getAllCategory');
+//Route::get('api/:version/product/:id','api/:version.Product/getOne');
+//路由分组
+Route::group('api/:version/product',function (){
+    Route::get('/recent','api/:version.Product/getRecent');
+    Route::get('/by_category','api/:version.Product/getAllCategory');
+    Route::get('/detail/:id','api/:version.Product/getOne');
+});
+
+
+
+
 Route::get('api/:version/category/all','api/:version.Category/getAllCategories');
 Route::post('api/:version/token/user','api/:version.Token/getToken');
