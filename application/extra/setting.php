@@ -7,5 +7,6 @@
  */
 
 return [
-    'domain_url'=> 'http://localhost:8888/store/public/'
+    'domain_url'=> 'http://localhost:8888/store/public/',
+    'token_expire_in' => 7200
 ];
