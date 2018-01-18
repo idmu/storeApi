@@ -20,5 +20,4 @@ class AddressNew extends BaseValidate
         'detail'=> 'require|isNotEmpty',
         'uid' => 'require|isNotEmpty'
     ];
-
 }

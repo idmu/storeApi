@@ -63,4 +63,19 @@ class BaseValidate extends Validate
 
     }
 
+//限制客户端上传的参数
+    public function getDataByRule($arrays){
+        if (array_key_exists('user_id',$arrays)|
+        array_key_exists('uid',$arrays)){
+            throw new ParameterException([
+                'msg'=> '参数中包含有非法的参数名user_id或者id'
+            ]);
+        }
+        $newArray = [];
+        foreach ($this->rule as $key => $value){
+            $newArray[$key] = $arrays[$key];
+        }
+        return $newArray;
+    }
+
 }
