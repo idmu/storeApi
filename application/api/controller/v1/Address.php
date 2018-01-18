@@ -46,6 +46,6 @@ class Address
 //        return $user;
 //        return 'success';
         //成功后返回ok
-        return new  SuccessMessage();
+        return json(new  SuccessMessage(),201) ;
     }
 }

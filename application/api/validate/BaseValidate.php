@@ -51,6 +51,18 @@ class BaseValidate extends Validate
 
 
     }
+
+    protected function isMobile($value)
+    {
+        $rule = '^1(3|4|5|7|8)[0-9]\d{8}$^';
+        $result = preg_match($rule, $value);
+        if ($result) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
 //    不能为空
     protected function isNotEmpty($value, $rule='', $data='', $field='')
     {
