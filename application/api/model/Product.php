@@ -40,8 +40,15 @@ class Product extends BaseModel
            ->select();
        return $products;
     }
+    //闭包处理返回的结果排序问题
     public static function getProductDetail($id){
-        $product = self::with('imgs,properties')
+        $product = self::with([
+            'imgs'=> function($query){
+            $query->with(['imgUrl'])
+                ->order('order','asc');
+            }
+        ])
+            ->with(['properties'])
             ->find($id);
         return $product;
     }
