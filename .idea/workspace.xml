@@ -94,7 +94,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="185" />
+    <option name="x" value="194" />
     <option name="y" value="23" />
     <option name="width" value="907" />
     <option name="height" value="712" />
@@ -250,7 +250,7 @@
       <updated>1516142339618</updated>
       <workItem from="1516142341352" duration="21387000" />
       <workItem from="1516186807384" duration="1758000" />
-      <workItem from="1516202009091" duration="22888000" />
+      <workItem from="1516202009091" duration="22906000" />
     </task>
     <task id="LOCAL-00001" summary="添加分类接口及接口路由">
       <created>1516203725752</created>
@@ -308,14 +308,21 @@
       <option name="project" value="LOCAL" />
       <updated>1516271208163</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="完善添加收货地址的接口">
+      <created>1516271221827</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1516271221827</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46033000" />
+    <option name="totallyTimeSpent" value="46051000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="185" y="23" width="907" height="712" extended-state="0" />
+    <frame x="194" y="23" width="907" height="712" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24393064" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
