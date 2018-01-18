@@ -28,7 +28,7 @@ class Product
 
     }
 
-
+     //获取分类商品
     public function getAllCategory($id){
         (new IDMustBePositiveInt())->goCheck();
         $products = ProductModel::getProductsByCategoryID($id);
